@@ -1,0 +1,44 @@
+#profile-container {
+    /* max-height: 530px;
+    padding: calc((100vh - 530px - 20px) / 2) 0; */
+    padding: 50px 0;
+}
+
+#profile-image {
+    width: 100%;
+}
+
+#profile-image img {
+    width: 30%;
+    padding: 0 35%;
+}
+
+#profile-details {
+    position: relative;
+}
+
+#profile-details h2 {
+    font-size: 30px;
+}
+
+#profile-details div,
+#profile-details a {
+    color: #888;
+}
+
+#profile-details div {
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+#profile-bio {
+    margin-bottom: 20px;
+}
+
+@media only screen and ( max-width: 480px ) {
+
+    #profile-image img {
+        width: 50%;
+        padding: 0 25%;
+    }
+}

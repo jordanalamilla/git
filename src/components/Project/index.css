@@ -1,0 +1,45 @@
+.project {
+    position: relative;
+    /* min-height: 350px; */
+    border-radius: 5px;
+    border: 1px solid #CCC;
+    background-color: #FEFEFE;
+    overflow: auto;
+    opacity: 0.8;
+    text-align: left;
+}
+
+.project:hover {
+    opacity: 1;
+}
+
+.project img {
+    width: 100%;
+    /* border-radius: 10px; */
+}
+
+.project-details {
+    padding: 10px;
+}
+
+.project-details p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #777;
+}
+
+.button-container {
+    height: 60px;
+    width: 100%;
+}
+
+.button-container .button, .project-language {
+    position: absolute;
+    bottom: 10px;
+}
+
+.project-language {
+    right: 10px;
+    /* font-size: 12px; */
+    font-weight: bold;
+}

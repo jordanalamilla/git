@@ -1,0 +1,38 @@
+body {
+  background-color: #fcfcfc;
+  font-size: 14px;
+}
+
+.App {
+  text-align: center;
+  padding: 10px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 2px;
+  padding: 10px;
+  text-transform: lowercase;
+  text-decoration: none !important;
+}
+
+.blue {
+  color: rgb(25, 47, 94) !important;
+  background-color: rgb(217, 222, 232) !important;
+  border: 1px solid rgb(25, 47, 94) !important;
+}
+
+.green {
+  color: rgb(25, 94, 45) !important;
+  background-color: rgb(222, 232, 217) !important;
+  border: 1px solid rgb(25, 94, 45) !important;
+}
+
+.disabled {
+  color: rgb(178, 179, 179) !important;
+  background-color: rgb(238, 238, 238) !important;
+  border: 1px solid rgb(206, 206, 206) !important;
+  cursor: default;
+}
